@@ -20,8 +20,8 @@ public class ACTIONSCLASSFLIP {
 	WebElement electronics = driver.findElement(By.xpath("//img[@alt='Electronics']"));
 	options.moveToElement(electronics).perform();
 	
-	WebElement laptop = driver.findElement(By.xpath("//a[@class='_6WOcW9 _2-k99T']"));
-	options.moveToElement(laptop).perform();
+	WebElement electronic = driver.findElement(By.xpath("//a[@class='_6WOcW9 _2-k99T']"));
+	options.moveToElement(electronic).perform();
 	
 	
 	}
